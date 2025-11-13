@@ -1,0 +1,204 @@
+# ---- TEST ADD (5 fallos) ----
+1
+abcd
+
+1
+32/13/2025
+
+1
+10-10-2025
+
+1
+    # vacío
+
+1
+15/03/2025
+100
+
+# Ahora un add válido para continuar
+1
+15/03/2025
+2
+4
+
+
+# ---- TEST EDIT (5 fallos) ----
+3
+99/99/9999
+
+3
+15-03-2025
+
+3
+15/03/2025
+abcd
+
+3
+15/03/2025
+2
+999
+
+3
+    # vacío
+
+
+# Edit válido para continuar
+3
+15/03/2025
+3
+5
+
+
+# ---- TEST DELETE (5 fallos) ----
+4
+99/99/9999
+
+4
+abc
+
+4
+     # vacío
+
+4
+15-03-2025
+
+4
+15/03/2025
+n
+
+
+# Delete válido para continuar
+4
+15/03/2025
+y
+
+
+# ---- TEST VIEW (5 fallos) ----
+2
+
+2
+
+2
+
+2
+
+2
+
+
+# ---- TEST SUMMARY (5 fallos) ----
+5
+
+5
+
+5
+
+5
+
+5
+
+
+# ---- CICLO DE MÓDULOS ROTOS OTRA VEZ ----
+
+# ADD (5 fallos)
+1
+2025/10/10
+
+1
+44/12/2025
+
+1
+30/02/2025
+
+1
+15/03/2025
+-1
+
+1
+15/03/2025
+2
+9
+
+
+# ADD válido
+1
+01/01/2026
+3
+4
+
+
+# EDIT (5 fallos)
+3
+blah
+
+3
+01/01/2026
+xyz
+
+3
+01/01/2026
+2
+500
+
+3
+32/01/2026
+
+3
+     # vacío
+
+
+# EDIT válido
+3
+01/01/2026
+2
+5
+
+
+# DELETE (5 fallos)
+4
+aaa
+
+4
+01-01-2026
+
+4
+32/12/2025
+
+4
+
+4
+01/01/2026
+m
+
+
+# Delete válido
+4
+01/01/2026
+y
+
+
+# VIEW (5 fallos)
+2
+
+2
+
+2
+
+2
+
+2
+
+
+# SUMMARY (5 fallos)
+5
+
+5
+
+5
+
+5
+
+5
+
+
+# ---- FINAL ----
+6
